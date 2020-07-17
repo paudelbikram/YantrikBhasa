@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7ea09804-9e19-4cbf-840c-c93712ef0583" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yantrik/bhasa/Parser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yantrik/bhasa/RuntimeError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yantrik/bhasa/Scanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yantrik/bhasa/Token.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yantrik/bhasa/TokenType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yantrik/bhasa/YantrikBhasa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maven/demo-program/src/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maven/demo-program/src/Figure.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maven/demo-program/src/FigureWindow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maven/demo-program/src/Square.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maven/maven-examples/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maven/maven-examples/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maven/maven-examples/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maven/maven-examples/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maven/maven-examples/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maven/maven-examples/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maven/maven-examples/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maven/maven-examples/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_8_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maven/maven-examples/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maven/maven-examples/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maven/maven-examples/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_4_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maven/maven-examples/.idea/libraries/Maven__org_hibernate_hibernate_core_5_3_7_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maven/maven-examples/.idea/libraries/Maven__org_javassist_javassist_3_23_1_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maven/maven-examples/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maven/maven-examples/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maven/maven-examples/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_1_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maven/maven-examples/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maven/maven-examples/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maven/maven-examples/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maven/maven-examples/maven-examples.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bitbucket/JAVA_Assignment_Bikram/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bitbucket/JAVA_Assignment_Bikram/java_assignment_bikram" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.mapnep/com.mapnep" beforeDir="false" afterPath="$PROJECT_DIR$/../com.mapnep/com.mapnep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_from_book/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java_from_book/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_from_book/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java_from_book/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yantrik/bhasa/YantrikBhasa.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="413">
+              <caret line="83" selection-start-line="83" selection-end-line="83" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2076#2077#0" expanded="true" />
+                <element signature="e#2117#2118#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yantrik/bhasa/Parser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="65" column="9" lean-forward="true" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#250#251#0" expanded="true" />
+                <element signature="e#285#286#0" expanded="true" />
+                <element signature="e#2291#2292#0" expanded="true" />
+                <element signature="e#2332#2333#0" expanded="true" />
+                <element signature="e#2360#2361#0" expanded="true" />
+                <element signature="e#2402#2403#0" expanded="true" />
+                <element signature="e#2434#2435#0" expanded="true" />
+                <element signature="e#2480#2481#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yantrik/bhasa/RuntimeError.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yantrik/bhasa/Scanner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1006#1007#0" expanded="true" />
+                <element signature="e#1042#1043#0" expanded="true" />
+                <element signature="e#3433#3434#0" expanded="true" />
+                <element signature="e#3480#3481#0" expanded="true" />
+                <element signature="e#3426#3427#0" expanded="true" />
+                <element signature="e#3469#3470#0" expanded="true" />
+                <element signature="e#3465#3466#0" expanded="true" />
+                <element signature="e#3514#3515#0" expanded="true" />
+                <element signature="e#3560#3561#0" expanded="true" />
+                <element signature="e#3596#3597#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yantrik/bhasa/Token.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding>
+                <element signature="e#368#369#0" expanded="true" />
+                <element signature="e#396#397#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yantrik/bhasa/TokenType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>match</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/YantrikBhasa.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TokenType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Token.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Scanner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yantrik/bhasa/TokenType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yantrik/bhasa/Scanner.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yantrik/bhasa/RuntimeError.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yantrik/bhasa/YantrikBhasa.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yantrik/bhasa/Parser.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="983" />
+    <option name="height" value="1043" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="yantrikbhasa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="programming_language" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yantrikbhasa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="programming_language" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yantrikbhasa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="programming_language" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yantrikbhasa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="programming_language" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yantrikbhasa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="programming_language" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bhasa" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7ea09804-9e19-4cbf-840c-c93712ef0583" name="Default Changelist" comment="" />
+      <created>1594949298794</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594949298794</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.43157893" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Tool Output" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="ANTLR Preview" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yantrik/bhasa/Token.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yantrik/bhasa/TokenType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yantrik/bhasa/Scanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1006#1007#0" expanded="true" />
+            <element signature="e#1042#1043#0" expanded="true" />
+            <element signature="e#3433#3434#0" expanded="true" />
+            <element signature="e#3480#3481#0" expanded="true" />
+            <element signature="e#3426#3427#0" expanded="true" />
+            <element signature="e#3469#3470#0" expanded="true" />
+            <element signature="e#3465#3466#0" expanded="true" />
+            <element signature="e#3514#3515#0" expanded="true" />
+            <element signature="e#3560#3561#0" expanded="true" />
+            <element signature="e#3596#3597#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yantrik/bhasa/RuntimeError.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yantrik/bhasa/YantrikBhasa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2076#2077#0" expanded="true" />
+            <element signature="e#2117#2118#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yantrik/bhasa/Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="65" column="9" lean-forward="true" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#2291#2292#0" expanded="true" />
+            <element signature="e#2332#2333#0" expanded="true" />
+            <element signature="e#2360#2361#0" expanded="true" />
+            <element signature="e#2402#2403#0" expanded="true" />
+            <element signature="e#2434#2435#0" expanded="true" />
+            <element signature="e#2480#2481#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>programming_language</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
